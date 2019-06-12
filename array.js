@@ -65,6 +65,6 @@ class Array {
   }
 }
 
-console.log(new Array())
+// console.log(new Array())
 
 module.exports = Array
