@@ -1,4 +1,4 @@
-class Memory {
+class memory {
   constructor() {
     this.memory = new Float64Array(1024);
     this.head = 0;
@@ -44,4 +44,4 @@ class Memory {
   }
 }
 
-module.exports = Memory;
+module.exports = memory

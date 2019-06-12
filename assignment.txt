@@ -1,0 +1,57 @@
+Assignement:
+
+1)============================================================================
+
+2)============================================================================
+Array.SIZE_RATIO = 3;
+arr.push(3);
+
+What is the length, capacity and memory address of your array?
+length = 1
+capacity = 3
+memory address (ptr) = 0
+
+Add the following in the main function and then print the array:
+arr.push(5);
+arr.push(15);
+arr.push(19);
+arr.push(45);
+arr.push(10);
+
+What is the length, capacity and memory address of your array? 
+Explain the result of your program after adding the new lines of code.
+
+length = 6
+  -length = number of items we pushed into our array
+capacity = 12
+  -started at 0
+  -then we added 1 item
+    -we increased it by length(0) + 1 * SIZE_RATION(3) => 3
+  -when we pushed the 4th item, we ran out of space
+    -we increased it by length(3) + 1 * SIZE_RATION(3) => 12
+memory address (ptr) = 3
+  -start at 0
+  -when we pushed the 4th item, we ran out of space
+    -we realocated memory to next available free memory address/block?
+      -the next available was at memory address 3
+        -our array now occupies memory address ptr(3) - ptr + capacity - 1(14)
+
+3)============================================================================
+
+4)============================================================================
+
+5)============================================================================
+
+6)============================================================================
+
+7)============================================================================
+
+8)============================================================================
+
+9)============================================================================
+
+10)===========================================================================
+
+11)===========================================================================
+
+12)===========================================================================
